@@ -1,6 +1,6 @@
 {
-  "name": "graphql-sequelize",
-  "version": "5.3.0",
+  "name": "@abrown/graphql-sequelize",
+  "version": "5.3.1",
   "description": "GraphQL & Relay for MySQL & Postgres via Sequelize",
   "main": "lib/index.js",
   "options": {
@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/mickhansen/graphql-sequelize",
   "dependencies": {
-    "dataloader-sequelize": "^1.4.4",
+    "@abrown/dataloader-sequelize": "^1.4.4",
     "lodash": "^4.0.0"
   },
   "peerDependencies": {
