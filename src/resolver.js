@@ -3,7 +3,7 @@ import argsToFindOptions from './argsToFindOptions';
 import { isConnection, handleConnection, nodeType } from './relay';
 import invariant from 'assert';
 import Promise from 'bluebird';
-import dataLoaderSequelize from 'dataloader-sequelize';
+import dataLoaderSequelize from '@abrown/dataloader-sequelize';
 
 function resolverFactory(target, options) {
   dataLoaderSequelize(target);
